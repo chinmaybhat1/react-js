@@ -7,8 +7,8 @@ import ClassComponent from './Components/ClassComponent';
 function App() {
   return (
     <div className="App">
-      <Functional/>
-      <ClassComponent/>
+      <Functional capital='Bengaluru' state='Karnataka'>One State. Many worlds</Functional>
+      <ClassComponent capital='Thiruvananthapuram' state='Kerala'/>
     </div>
   );
 }

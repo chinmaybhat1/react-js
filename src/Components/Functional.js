@@ -1,8 +1,9 @@
 import React from 'react'
-const Functional = () => {
+const Functional = (props) => {
     return (
         <div>
-            <h1>Hello Chinmay</h1>
+            <h1>The capital city of {props.state} is {props.capital}</h1>
+            {props.children}
         </div>
     )
 }
