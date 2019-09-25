@@ -7,6 +7,7 @@ import Message from './Components/Message';
 import FunctionalClick from './Components/FunctionalClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Message/> */}
       {/* <FunctionalClick/>
       <ClassClick/> */}
-      <EventBind/>
+      {/* <EventBind/> */}
+      <ParentComponent/>
     </div>
   );
 }
