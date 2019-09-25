@@ -6,6 +6,7 @@ import ClassComponent from './Components/ClassComponent';
 import Message from './Components/Message';
 import FunctionalClick from './Components/FunctionalClick';
 import ClassClick from './Components/ClassClick';
+import EventBind from './Components/EventBind';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       {/* <Functional capital='Bengaluru' state='Karnataka'>One State. Many worlds</Functional>
       <ClassComponent capital='Thiruvananthapuram' state='Kerala'/> */}
       {/* <Message/> */}
-      <FunctionalClick/>
-      <ClassClick/>
+      {/* <FunctionalClick/>
+      <ClassClick/> */}
+      <EventBind/>
     </div>
   );
 }
