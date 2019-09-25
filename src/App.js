@@ -8,9 +8,9 @@ import Message from './Components/Message';
 function App() {
   return (
     <div className="App">
-      {/* <Functional capital='Bengaluru' state='Karnataka'>One State. Many worlds</Functional>
-      <ClassComponent capital='Thiruvananthapuram' state='Kerala'/> */}
-      <Message/>
+      <Functional capital='Bengaluru' state='Karnataka'>One State. Many worlds</Functional>
+      <ClassComponent capital='Thiruvananthapuram' state='Kerala'/>
+      {/* <Message/> */}
     </div>
   );
 }
