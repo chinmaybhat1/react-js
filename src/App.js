@@ -8,6 +8,8 @@ import FunctionalClick from './Components/FunctionalClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
+import SampleComponent from './Components/SampleComponent';
+import ConditionalComponent from './Components/ConditionalComponent';
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
       {/* <FunctionalClick/>
       <ClassClick/> */}
       {/* <EventBind/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <ConditionalComponent />
     </div>
   );
 }
