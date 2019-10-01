@@ -8,8 +8,9 @@ import FunctionalClick from './Components/FunctionalClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
-import SampleComponent from './Components/SampleComponent';
 import ConditionalComponent from './Components/ConditionalComponent';
+import NameList from './Components/NameList';
+import Form from './Components/Form';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       <ClassClick/> */}
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
-      <ConditionalComponent />
+      {/* <ConditionalComponent /> */}
+      <NameList/>
     </div>
   );
 }
