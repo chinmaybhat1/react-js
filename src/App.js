@@ -23,7 +23,8 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <ConditionalComponent /> */}
-      <NameList/>
+      {/* <NameList/> */}
+      <Form/>
     </div>
   );
 }
