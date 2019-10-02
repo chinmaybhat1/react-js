@@ -13,6 +13,7 @@ import NameList from './Components/NameList';
 import Form from './Components/Form';
 import ParentLifecycle from './Components/ParentLifecycle';
 import Table from './Components/Table';
+import RefsDemo from './Components/RefsDemo';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <NameList/> */}
       {/* <Form topic='react'/> */}
       {/* <ParentLifecycle/> */}
-      <Table />
+      {/* <Table /> */}
+      <RefsDemo/>
     </div>
   );
 }
