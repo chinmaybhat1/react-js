@@ -14,6 +14,8 @@ import Form from './Components/Form';
 import ParentLifecycle from './Components/ParentLifecycle';
 import Table from './Components/Table';
 import RefsDemo from './Components/RefsDemo';
+import Hero from './Components/Hero';
+import ErrorBoundary from './Components/ErrorBoundary';
 
 function App() {
   return (
@@ -30,7 +32,13 @@ function App() {
       {/* <Form topic='react'/> */}
       {/* <ParentLifecycle/> */}
       {/* <Table /> */}
-      <RefsDemo/>
+      {/* <RefsDemo/> */}
+      <ErrorBoundary>
+        <Hero heroName='Batman'/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName='Deadpool'/>
+      </ErrorBoundary>
     </div>
   );
 }
