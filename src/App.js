@@ -11,6 +11,7 @@ import ParentComponent from './Components/ParentComponent';
 import ConditionalComponent from './Components/ConditionalComponent';
 import NameList from './Components/NameList';
 import Form from './Components/Form';
+import ParentLifecycle from './Components/ParentLifecycle';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <ConditionalComponent /> */}
       {/* <NameList/> */}
-      <Form/>
+      {/* <Form topic='react'/> */}
+      <ParentLifecycle/>
     </div>
   );
 }

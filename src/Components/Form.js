@@ -8,7 +8,7 @@ class Form extends Component {
         this.state = {
             username: '',
             comments:'',
-            topic:'React'
+            topic:this.props.topic
         }
     }
 
