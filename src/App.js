@@ -12,6 +12,7 @@ import ConditionalComponent from './Components/ConditionalComponent';
 import NameList from './Components/NameList';
 import Form from './Components/Form';
 import ParentLifecycle from './Components/ParentLifecycle';
+import Table from './Components/Table';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <ConditionalComponent /> */}
       {/* <NameList/> */}
       {/* <Form topic='react'/> */}
-      <ParentLifecycle/>
+      {/* <ParentLifecycle/> */}
+      <Table />
     </div>
   );
 }
