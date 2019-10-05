@@ -18,6 +18,8 @@ import Hero from './Components/Hero';
 import ErrorBoundary from './Components/ErrorBoundary';
 import ClickCounter from './Components/ClickCounter';
 import { UserProvider } from './Components/UserContext';
+import PostList from './Components/HTTP/PostList';
+import PostForm from './Components/HTTP/PostForm';
 
 function App() {
 
@@ -33,9 +35,9 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <ConditionalComponent /> */}
-      <UserProvider value={loggedInUser}>
+      {/* <UserProvider value={loggedInUser}>
         <NameList />
-      </UserProvider>
+      </UserProvider> */}
       {/* <Form topic='react'/> */}
       {/* <ParentLifecycle/> */}
       {/* <Table /> */}
@@ -47,6 +49,11 @@ function App() {
         <Hero heroName='Deadpool'/>
       </ErrorBoundary> */}
       {/* <ClickCounter/> */}
+
+
+      {/* React with HTTP */}
+      {/* <PostList/> */}
+      <PostForm/>
 
     </div>
   );
