@@ -16,8 +16,13 @@ import Table from './Components/Table';
 import RefsDemo from './Components/RefsDemo';
 import Hero from './Components/Hero';
 import ErrorBoundary from './Components/ErrorBoundary';
+import ClickCounter from './Components/ClickCounter';
+import { UserProvider } from './Components/UserContext';
 
 function App() {
+
+  const loggedInUser = 'Chinmay'
+  
   return (
     <div className="App">
       {/* <Functional capital='Bengaluru' state='Karnataka'>One State. Many worlds</Functional>
@@ -28,17 +33,21 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <ConditionalComponent /> */}
-      {/* <NameList/> */}
+      <UserProvider value={loggedInUser}>
+        <NameList />
+      </UserProvider>
       {/* <Form topic='react'/> */}
       {/* <ParentLifecycle/> */}
       {/* <Table /> */}
       {/* <RefsDemo/> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroName='Batman'/>
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroName='Deadpool'/>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+      {/* <ClickCounter/> */}
+
     </div>
   );
 }
